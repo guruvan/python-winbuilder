@@ -2,7 +2,7 @@ wine_prefix_root: "/wine"
 
 matrix:
     - python_home: "C:\\Python27"
-      python_version: "2.7.8"
+      python_version: "2.7.10"
       python_arch: "32"
       mingw_home: "C:\\mingw32static"
 
@@ -17,7 +17,7 @@ matrix:
       mingw_home: "C:\\mingw32static"
 
     - python_home: "C:\\Python27-x64"
-      python_version: "2.7.8"
+      python_version: "2.7.10"
       python_arch: "64"
       mingw_home: "C:\\mingw64static"
 
