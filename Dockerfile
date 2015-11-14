@@ -1,7 +1,7 @@
 # Build with:
 # docker build -t ogrisel/python-winbuilder .
-FROM ubuntu:trusty
-MAINTAINER Olivier Grisel <olivier.grisel@ensta.org>
+FROM ubuntu:vivid
+MAINTAINER Rob Nelson <guruvan@maza.club>
 
 WORKDIR /root
 USER root
