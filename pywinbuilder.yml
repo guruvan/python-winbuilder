@@ -6,11 +6,6 @@ matrix:
       python_arch: "32"
       mingw_home: "C:\\mingw32static"
 
-    - python_home: "C:\\Python33"
-      python_version: "3.3.5"
-      python_arch: "32"
-      mingw_home: "C:\\mingw32static"
-
     - python_home: "C:\\Python34"
       python_version: "3.4.2"
       python_arch: "32"
@@ -18,11 +13,6 @@ matrix:
 
     - python_home: "C:\\Python27-x64"
       python_version: "2.7.10"
-      python_arch: "64"
-      mingw_home: "C:\\mingw64static"
-
-    - python_home: "C:\\Python33-x64"
-      python_version: "3.3.5"
       python_arch: "64"
       mingw_home: "C:\\mingw64static"
 
