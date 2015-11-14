@@ -157,7 +157,8 @@ def install_python(python_home, version, arch, download_folder='.', env=None):
         urlretrieve(GET_PIP_URL, getpip_filepath)
 
     getpip_filepath = windows_path(getpip_filepath, env=env)
-    run([python_home + '\\python', getpip_filepath], env=env)
+    # pip installed with python by default in 2.7.9+ and 3.4+
+    #run([python_home + '\\python', getpip_filepath], env=env)
     run([python_home + '\\python', '-m', 'pip', 'install', '--upgrade',
         'pip'], env=env)
 
